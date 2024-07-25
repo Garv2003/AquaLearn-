@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swiper {
+  width: 100%;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.swiper-slide {
+  width: 250px;
+  height: 400px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  /* filter: blur(3px); */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-slide--one {
+  background: url("/images/demo/targets/01.png") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: url("/images/demo/targets/02.jpeg") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: url("/images/demo/targets/03.png") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: url("/images/demo/targets/04.png") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: url("/images/demo/targets/05.png") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--six {
+  background: url("/images/demo/targets/06.png") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--seven {
+  background: url("/images/demo/targets/07.png") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--eight {
+  background: url("/images/demo/targets/08.png") no-repeat 50% 50% / cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
